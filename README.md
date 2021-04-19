@@ -1,7 +1,8 @@
 # Clustering-using-R
-Clustering using R
-1. INTRODUCTION
-OVERVIEW
+
+## 1. INTRODUCTION
+
+**OVERVIEW**
 We know how difficult it is now a days to deal with data. But thanks to the new mining
 techniques which helps us to handle data very smoothly.
 In this project, we have use the most famous and important technique of data mining
@@ -21,7 +22,7 @@ but also the high dimensional space.
 The data consists of the number of sales of different products of a retailer who sells
 those products in market.
 
-BACKGROUND AND MOTIVATION
+**BACKGROUND AND MOTIVATION**
 The motivation of this project is the curiosity we have for handling big data.
 Bigger the data, better we can apply the available techniques to it to grab some
 useful information from it.
@@ -50,7 +51,7 @@ determines the value of the coefficients using the input data. Next we can predi
 the value of the response variable for a given set of predictor variables using these
 coefficients.
 
-METHODOLOGY
+**METHODOLOGY**
 The following steps were applied to achieve our goal. These steps can also be found in the
 form of comments in the code.
 1. Prepare the data for analysis. Remove the missing value and remove “Channel” and
@@ -75,7 +76,8 @@ the other dimensions
 15. Count the correctly matching predictions and calculate the accuracy rate if the
 model.
 
-2. DATASET EXPLORATION
+## 2. DATASET EXPLORATION
+
 The dataset has been taken from http://archive.ics.uci.edu/ml/machine-learningdatabases/00292/
 This data has 7 attributes. Each attribute describes certain feature of the dataset.
 Attribute Information:
@@ -89,7 +91,8 @@ Attribute Information:
 7) CHANNEL: customersâ€™ Channel - Horeca (Hotel/Restaurant/CafÃ©) or Retail
 channel (Nominal)
 8) REGION: customersâ€™ Region â€“ Lisnon, Oporto or Other (Nominal)
-Descriptive Statistics:
+
+**Descriptive Statistics:**
 (Minimum, Maximum, Mean, Std. Deviation)
 FRESH ( 3, 112151, 12000.30, 12647.329)
 MILK (55, 73498, 5796.27, 7380.377)
